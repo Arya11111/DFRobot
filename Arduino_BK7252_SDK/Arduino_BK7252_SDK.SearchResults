@@ -1,0 +1,137 @@
+---- delay Matches (136 in 59 files) ----
+Ada-Tasks.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gdb):               <br><dt><code>Delay Sleep</code><dd>The task is waiting on a select statement with only a delay
+ARC-Options.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):Due to delay slot scheduling and interactions between operand numbers,
+ARC-Options.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):branch shortening, and delay slot scheduling have been done.  This pass
+ARC-Options.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):filled delay slot are preferably emitted unaligned and long, unless
+Arduino.h (hardware\bk7251\0.7.0\cores\bk7251):#include "delay.h"
+Arm_math.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\toolchain\cmsis\include):    int32_t *pTapDelay;           /**< points to the array of delay values.  The array is of length numTaps. */
+Arm_math.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\toolchain\cmsis\include):    int32_t *pTapDelay;           /**< points to the array of delay values.  The array is of length numTaps. */
+Arm_math.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\toolchain\cmsis\include):    int32_t *pTapDelay;           /**< points to the array of delay values.  The array is of length numTaps. */
+Arm_math.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\toolchain\cmsis\include):    int32_t *pTapDelay;           /**< points to the array of delay values.  The array is of length numTaps. */
+AVR-Built_002din-Functions.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc): <p>In order to delay execution for a specific number of cycles, GCC
+AVR-Built_002din-Functions.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc): <p class="noindent"><code>ticks</code> is the number of ticks to delay execution. Note that this
+AVR-Built_002din-Functions.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):might increase delay time. <code>ticks</code> must be a compile-time
+Concept-Index.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):<li><a href="Delay-Slots.html#index-delay-slots_002c-defining-3778">delay slots, defining</a>: <a href="Delay-Slots.html#Delay-Slots">Delay Slots</a></li>
+Condition-Code.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):is a delay for taken branches unless the condition code register is set
+Contributors.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):elimination and delay slot scheduling.  Richard Kenner was also the
+Contributors.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):     <li>Ken Rose for fixes to GCC's delay slot filling code.
+Contributors.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):machine description work, delay slot scheduling.
+Contributors.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):elimination and delay slot scheduling.  Richard Kenner was also the
+Contributors.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):     <li>Ken Rose for fixes to GCC's delay slot filling code.
+Contributors.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):machine description work, delay slot scheduling.
+CRIS_002dOpts.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\as.html):because it is located in a delay-slot.  The
+Cygwin-Native.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gdb):<span class="sc">gdb</span> will delay recognition of exceptions, and may ignore some
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):<p><a name="index-delay-slots_002c-defining-3778"></a>
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):delay slots, if any, on a target machine.  An instruction is said to
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):require a <dfn>delay slot</dfn> if some instructions that are physically
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):<dfn>annul</dfn> instructions in the delay slot.  This means that the
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):determining whether an instruction needs a delay slot is dependent only
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint): <p><a name="index-define_005fdelay-3779"></a>The requirement of an insn needing one or more delay slots is indicated
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):                   [<var>delay-1</var> <var>annul-true-1</var> <var>annul-false-1</var>
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):                    <var>delay-2</var> <var>annul-true-2</var> <var>annul-false-2</var>
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):required delay slots is determined by the length of the vector specified
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):as the second argument.  An insn placed in delay slot <var>n</var> must
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):satisfy attribute test <var>delay-n</var>.  <var>annul-true-n</var> is an
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):delay slot may be annulled if the branch is false.  If annulling is not
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):supported for that delay slot, <code>(nil)</code> should be coded.
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):a single delay slot, which may contain any insn other than a branch or
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):case, each such expression specifies different delay slot requirements
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint): <p>For example, if we have a machine that requires one delay slot for branches
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):but two for calls,  no delay slot can contain a branch or call insn,
+Delay-Slots.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):and any valid insn in the delay slot for the branch can be annulled if the
+Delay.c (hardware\bk7251\0.7.0\cores\bk7251):#include "delay.h"
+Delay.c (hardware\bk7251\0.7.0\cores\bk7251):void delay( unsigned long ms )
+Delay.h (hardware\bk7251\0.7.0\cores\bk7251):extern void delay( uint32_t dwMs ) ;
+Dlltool.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\binutils.html):   <p>If the <samp><span class="option">-y</span></samp> option is specified, dlltool generates a delay-import
+Dlltool.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\binutils.html):     <br><dt><samp><span class="env">-y </span><var>filename</var></samp><dt><samp><span class="env">--output-delaylib </span><var>filename</var></samp><dd>Specifies the name of the delay-import library file to be created by dlltool.
+Errno.h (tools\gcc-arm-none-eabi\5_2-2015q4\arm-none-eabi\include\sys):#define ENODATA 61	/* No data (for no delay io) */
+Expressions.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):     <p>This example describes a conditional branch delay slot which
+Expressions.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):     <p><code>attr_flag</code> is only used during delay slot scheduling and has no
+Flags.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):     <p><a name="index-INSN_005fFROM_005fTARGET_005fP-2629"></a><a name="index-g_t_0040code_007binsn_007d-and-_0040samp_007b_002fs_007d-2630"></a><a name="index-g_t_0040code_007bjump_005finsn_007d-and-_0040samp_007b_002fs_007d-2631"></a><a name="index-g_t_0040code_007bcall_005finsn_007d-and-_0040samp_007b_002fs_007d-2632"></a><a name="index-g_t_0040code_007bin_005fstruct_007d_002c-in-_0040code_007binsn_007d-and-_0040code_007bjump_005finsn_007d-and-_0040code_007bcall_005finsn_007d-2633"></a><br><dt><code>INSN_FROM_TARGET_P (</code><var>x</var><code>)</code><dd>In an <code>insn</code> or <code>jump_insn</code> or <code>call_insn</code> in a delay
+Flags.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):delay slot of a branch,
+Flags.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):     <p>In an <code>insn</code> or <code>jump_insn</code> in the delay slot of a branch
+Forks.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gdb):so that the delay need not occur when you don't want to run <span class="sc">gdb</span>
+HPPA-Options.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):     <br><dt><code>-mjump-in-delay</code><dd><a name="index-mjump_002din_002ddelay-1702"></a>This option is ignored and provided for compatibility purposes only.
+I2c-bit-ops.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\rt-thread\components\drivers\include\drivers):    rt_uint32_t delay_us;  /* scl and sda line delay */
+Implementation.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gprof.html):added delay required to deliver the signal, this method is
+Index-Files.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gdb):<span class="sc">gdb</span> operations work quickly&mdash;at the cost of a delay early
+Index-Files.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gdb):on.  For large programs, this delay can be quite lengthy, so
+Insn-Attributes.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):<li><a accesskey="8" href="Delay-Slots.html#Delay-Slots">Delay Slots</a>:          Defining delay slots required for a machine. 
+Insn-Splitting.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):delay slots (see <a href="Delay-Slots.html#Delay-Slots">Delay Slots</a>) or that have instructions whose
+Insn-Splitting.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):be able to move insns into one-instruction delay slots.  However, some
+Insn-Splitting.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):cannot be placed into a delay slot.
+Insn-Splitting.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):reason to believe that it might improve instruction or delay slot
+Insn-Splitting.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):circumstances.  If an insn needs to be split for delay slot scheduling
+Insns.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint): <p>After delay slot scheduling, some of the insns in the chain might be
+Insns.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):set and use <code>cc0</code> are adjacent.  However, when branch delay slot
+Instruction-Output.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):reading assembly output if the extent of the delay sequence is made
+Instruction-Output.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint): <p><a name="index-final_005fsequence-4702"></a>Note that output routines for instructions with delay slots must be
+Ke_timer.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\ip\ke):                  uint32_t const delay);
+M32R_002dOpts.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\as.html):instructions that it produces.  This includes filling delay slots and
+Memory.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gdb):the <code>display</code> command, the &lsquo;<samp><span class="samp">i</span></samp>&rsquo; format also prints branch delay
+MIPS-Options.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):<li>An integer division may give an incorrect result if started in a delay slot
+Misc.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):delay slot scheduler to place instructions in the delay slot of <var>insn</var>,
+Misc.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):delay slot scheduler to place instructions in the delay slot of <var>insn</var>,
+Misc.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):define this macro.  Doing so allows the delay slot scheduler to move
+Misc.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):instructions which copy arguments into the argument registers into the delay
+Mm.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\ip\lmac\src\mm):/// Wake up delay before TBTT is occurring
+Nl80211_copy.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\func\hostapd-2.5\src\drivers): * coalescing delay of matching coalesce rule.
+Nl80211_copy.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\func\hostapd-2.5\src\drivers): * a) Maximum coalescing delay
+Nl80211_copy.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\func\hostapd-2.5\src\drivers): * @NL80211_ATTR_SCHED_SCAN_DELAY: delay before a scheduled scan (or a
+Nl80211_copy.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\func\hostapd-2.5\src\drivers): *	channels to scan and the initial delay) as well as the scan
+Nl80211_copy.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\func\hostapd-2.5\src\drivers): * @max_delay: maximum supported coalescing delay in msecs
+Nl80211_copy.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\func\hostapd-2.5\src\drivers): * @NL80211_ATTR_COALESCE_RULE_DELAY: delay in msecs used for packet coalescing
+Non_002dbugs.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):to have a delay, so deleting them will not make real programs run any
+Nrf52.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\device):  __IO uint32_t  FRAMEDELAYMIN;                     /*!< Minimum frame delay                                                   */
+Nrf52.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\device):  __IO uint32_t  FRAMEDELAYMAX;                     /*!< Maximum frame delay                                                   */
+Nrf52_bitfields.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\device):/* Description: Minimum frame delay */
+Nrf52_bitfields.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\device):/* Bits 15..0 : Minimum frame delay in number of 13.56 MHz clocks */
+Nrf52_bitfields.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\device):/* Description: Maximum frame delay */
+Nrf52_bitfields.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\device):/* Bits 15..0 : Maximum frame delay in number of 13.56 MHz clocks */
+Nrf_delay.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\drivers_nrf\delay): * @note NRF52 has instruction cache and because of that delay is not precise.
+Nrf_delay.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\drivers_nrf\delay):register uint32_t delay __ASM ("r0") = number_of_us;
+Nrf_delay.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\drivers_nrf\delay):    : "+r" (delay));
+Nrf_soc.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\softdevice\s110\headers):  uint32_t      timeout_us;                         /**< Longest acceptable delay until the start of the requested timeslot (up to @ref NRF_RADIO_EARLIEST_TIMEOUT_MAX_US microseconds). */
+Nrf_soc.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\softdevice\s130\headers):  uint32_t      timeout_us;                         /**< Longest acceptable delay until the start of the requested timeslot (up to @ref NRF_RADIO_EARLIEST_TIMEOUT_MAX_US microseconds). */
+Nrf_soc.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\components\softdevice\s132\headers):  uint32_t      timeout_us;                         /**< Longest acceptable delay until the start of the requested timeslot (up to @ref NRF_RADIO_EARLIEST_TIMEOUT_MAX_US microseconds). */
+Optimize-Options.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):          <br><dt><code>max-delay-slot-insn-search</code><dd>The maximum number of instructions to consider when looking for an
+Optimize-Options.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):instruction to fill a delay slot.  If more than this arbitrary number of
+Optimize-Options.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):instructions are searched, the time savings from filling the delay slot
+Optimize-Options.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):          <br><dt><code>max-delay-slot-live-search</code><dd>When trying to fill delay slots, the maximum number of instructions to
+Optimize-Options.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):should be removed when the delay slot code is rewritten to maintain the
+Optimize-Options.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):          <br><dt><code>max-sched-insn-conflict-delay</code><dd>The maximum conflict delay for an insn to be considered for speculative motion. 
+Option-Index.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):<li><a href="SH-Options.html#index-mcbranch_002dforce_002ddelay_002dslot-2502"><code>mcbranch-force-delay-slot</code></a>: <a href="SH-Options.html#SH-Options">SH Options</a></li>
+Option-Index.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):<li><a href="HPPA-Options.html#index-mjump_002din_002ddelay-1702"><code>mjump-in-delay</code></a>: <a href="HPPA-Options.html#HPPA-Options">HPPA Options</a></li>
+Option-Summary.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):          -mjump-in-delay -mlinker-opt -mlong-calls 
+Option-Summary.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):          -mno-jump-in-delay  -mno-long-load-store 
+Option-Summary.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):          -mcbranch-force-delay-slot 
+Options.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\ld.html):for each DLL, in-memory collisions and relocations which can delay program
+Packets.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gdb):stub is allowed to delay erase operation until the &lsquo;<samp><span class="samp">vFlashDone</span></samp>&rsquo;
+Packets.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gdb):The stub is permitted to delay or batch the effects of a group of
+Platform.txt (hardware\bk7251\0.7.0):c/" "-I{nrf.sdk.path}/beken378/rttos/include/" "-I{nrf.sdk.path}/beken378/common/" "-I{nrf.sdk.path}/beken378/driver/common/" "-I{nrf.sdk.path}/beken378/driver/common/reg/" "-I{nrf.sdk.path}/rt-thread/include/" "-I{nrf.sdk.path}/rt-thread/components/drivers/include/" "-I{nrf.sdk.path}/rt-thread/components/drivers/include/drivers/" "-I{nrf.sdk.path}/rt-thread/components/dfs/include/" "-I{nrf.sdk.path}/rt-thread/components/" "-I{nrf.sdk.path}/rt-thread/components/finsh" "-I{nrf.sdk.path}/components/codec/lib_helix_mp3" "-I{nrf.sdk.path}/components/toolchain/" "-I{nrf.sdk.path}/components/toolchain/CMSIS/Include" "-I{nrf.sdk.path}/components/toolchain/gcc/" "-I{nrf.sdk.path}/components/device/" "-I{nrf.sdk.path}/components/drivers_nrf/delay/" "-I{nrf.sdk.path}/components/softdevice/{softdevice}/headers/"
+Processor-pipeline-description.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):<dfn>interlock (pipeline) delay</dfn> causes interruption of the fetching
+Processor-pipeline-description.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):The first one is a data dependence delay determining <dfn>instruction
+Processor-pipeline-description.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):anti-dependence) delay between two instructions is given by a
+Processor-pipeline-description.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):of interlock delays is a reservation delay.  The reservation delay
+Processor-pipeline-description.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):of delay into account is complex especially for modern <acronym>RISC</acronym>
+Processor-pipeline-description.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):insn is used by an integer insn, an additional delay of one cycle is
+Rthw.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\rt-thread\include): * delay interfaces
+RTL-passes.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):delay slots of other instructions, usually jumps and calls.  The code
+Saradc_pub.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\driver\include):     * bit[2:2]: delay clk(adc setting)
+Saradc_pub.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\driver\include):     *           0: delay 4 clk
+Saradc_pub.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\driver\include):     *           1: delay 8 clk
+Scanu_task.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\ip\umac\src\scanu):    /// Probe delay.
+Set.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\as.html):addresses of symbols at assembly time, but rather delay the assignment until a
+SH-Options.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gcc):     <br><dt><code>-mcbranch-force-delay-slot</code><dd><a name="index-mcbranch_002dforce_002ddelay_002dslot-2502"></a>Force the usage of delay slots for conditional branches, which stuffs the delay
+Side-Effects.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):     <p>After delay-slot scheduling is completed, an insn and all the insns that
+Side-Effects.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):reside in its delay slots are grouped together into a <code>sequence</code>. 
+Side-Effects.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):The insn requiring the delay slot is the first insn in the vector;
+Side-Effects.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):subsequent insns are to be placed in the delay slot.
+Side-Effects.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):     <p><code>INSN_ANNULLED_BRANCH_P</code> is set on an insn in a delay slot to
+Side-Effects.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):the effect of the insns in the delay slots.  In such a case,
+Side-Effects.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):delay-slot groups.  This is not supported in the common parts of the
+Side-Effects.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):compiler, which treat such sequences as delay-slot groups.
+Standard-Names.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gccint):instruction scheduling or which have delay slots for their return instruction.
+Target_util_pub.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\func\include):extern void delay(INT32 num);
+Target_util_pub.h (hardware\bk7251\0.7.0\cores\bk7251\sdk\beken378\rttos\include):extern void delay(INT32 num);
+Writing-a-Frame-Filter.html (tools\gcc-arm-none-eabi\5_2-2015q4\share\doc\gcc-arm-none-eabi\html\gdb):can substantially delay the printing of the backtrace which will
